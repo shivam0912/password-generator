@@ -1,0 +1,87 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #4e31aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+h3 {
+  margin: 10px 0 20px;
+  text-align: center;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+input[type="checkbox"] {
+  margin-right: 0;
+}
+.container {
+  width: 350px;
+  max-width: 100%;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+  background-color: #3a1078;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+
+  font-size: 16px;
+  letter-spacing: 1px;
+
+  padding: 12px 10px;
+  height: 20px;
+}
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.yourChoice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: #4e31aa;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.copy{
+
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    background-color: #3a1078;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px 12px;
+    margin: 10px;
+    color: #fff;
+    right: 0;
+    
+    
+}
